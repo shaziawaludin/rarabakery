@@ -12,3 +12,15 @@
 .borderr1{
     border-radius: 15px;
 }
+
+.loginbg{
+    background-image: url("http://localhost/rarabakeryview/assets/img/loginbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80vh;
+    /* background-color: #000; */
+}
+
+.logincontainer{
+    height: 100vh !important;
+}
