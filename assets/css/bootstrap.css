@@ -6216,6 +6216,10 @@ textarea.form-control-lg {
   box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.105) !important;
 }
 
+.shadow-ssm {
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.45) !important;
+}
+
 .shadow-lg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
