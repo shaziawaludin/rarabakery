@@ -62,7 +62,7 @@
                                 <div class="col"><strong>Rp.000.000</strong></div>
                             </div>
                             <div class="d-grid gap-2 mt-3">
-                                <button type="button" class="btn btn-warning btn-sm text-white fw-bold borderr2">+ Keranjang</button>
+                                <button type="button" class="btn btn-warning btn-sm text-white fw-bold borderr2" data-bs-toggle="modal" data-bs-target="#keranjangModal">+ Keranjang</button>
                                 <button type="button" class="btn border-warning btn-sm text-warning fw-bold borderr2">Beli Sekarang</button>
                             </div>
                         </form>
@@ -94,5 +94,43 @@
 
 </main>
 
+<div class="modal fade" id="keranjangModal" tabindex="-1" aria-labelledby="keranjangModal" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen-sm-down modal-lg ">
+        <div class="modal-content pb-4 px-4 borderr1">
+            <div class="modal-header border-0 text-center">
+                <h5 class="modal-title text-warning fw-bold position-relative start-50 translate-middle-x" id="keranjangModalTitle">Berhasil Ditambahkan</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row px-3 g-2">
+                    <div class="col-sm-9 text-truncate">
+                        <img src="http://localhost/rarabakeryview/assets/img/boluhijau.jpg" alt="" width="80px" height="80px" style="object-fit: cover;" class="borderr2">
+                        <span class="ms-2 fs-5">Bolu Hijau Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quibusdam eius, quod enim voluptas unde nemo, facilis maxime corrupti qui quo illo architecto, nobis mollitia facere! Dolorum provident doloribus tenetur.</span>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-center justify-content-center">
+                        <button type="button" class=" btn btn-warning btn-sm text-white fw-bold borderr2">Lihat Keranjang</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <p class="fw-bold">Yang Mungkin Kamu Suka</p>
+                <?php $i = 0;
+                for ($i = 0; $i < 6; $i++) : ?>
+                    <div class="col-sm-2 col-4 mt-4">
+                        <div class="card borderr2 shadow-lsm border-0">
+                            <a href="" class="d-block m-0 text-decoration-none text-dark">
+                                <img src="http://localhost/rarabakeryview/assets/img/recblue.png" class="card-img-top " alt="">
+                                <div class="card-body m-0 ">
+                                    <p class="text-truncate fs-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam doloribus unde obcaecati. Id, sint hic minus dolorem asperiores perspiciatis rem esse optio expedita itaque doloremque eveniet ad, velit corrupti!</p>
+                                    <h6 class="card-title fs-7 fw-bold">Rp.000.000</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                <?php endfor; ?>
+            </div>
+        </div>
+    </div>
+</div>
 <?php include "../template/footerview.php" ?>
 <?php include "../template/footer.php" ?>

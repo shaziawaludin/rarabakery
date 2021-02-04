@@ -5,20 +5,20 @@
         <li data-bs-target="#heroCarousel" data-bs-slide-to="2"></li>
     </ol>
     <div class="carousel-inner shadow-sm" style="max-height: 428px;">
-        <div class="carousel-item active bg-info h-100">
+        <div class="carousel-item active bg-secondary h-100">
             <a href="#" class="d-block">
                 <div class="row justify-content-center p-4">
                     <div class="" style="min-width:768px; max-width: 1100px;">
-                        <img src="http://localhost/rarabakeryview/assets/img/ad1.jpg" style="width: 100%; height:350px;  object-fit: cover;" class="borderr1 shadow-ssm" alt="">
+                        <img src="http://localhost/rarabakeryview/assets/img/1.png" style="width: 100%; height:350px;  object-fit: cover;" class="borderr1 shadow-ssm" alt="">
                     </div>
                 </div>
             </a>
         </div>
-        <div class="carousel-item bg-info h-100">
+        <div class="carousel-item bg-light h-100">
             <a href="#" class="d-block">
                 <div class="row justify-content-center p-4">
                     <div class="" style="min-width:768px; max-width: 1100px;">
-                        <img src="http://localhost/rarabakeryview/assets/img/ad2.jpg" style="width: 100%; height:350px;  object-fit: cover;" class="borderr1 shadow-ssm" alt="">
+                        <img src="http://localhost/rarabakeryview/assets/img/2.png" style="width: 100%; height:350px;  object-fit: cover;" class="borderr1 shadow-ssm" alt="">
                     </div>
                 </div>
             </a>
@@ -27,7 +27,7 @@
             <a href="#" class="d-block">
                 <div class="row justify-content-center p-4">
                     <div class="" style="min-width:768px; max-width: 1100px;">
-                        <img src="http://localhost/rarabakeryview/assets/img/ad3.jpg" style="width: 100%; height:350px;  object-fit: cover;" class="borderr1 shadow-ssm" alt="">
+                        <img src="http://localhost/rarabakeryview/assets/img/3.png" style="width: 100%; height:350px;  object-fit: cover;" class="borderr1 shadow-ssm" alt="">
                     </div>
                 </div>
             </a>
